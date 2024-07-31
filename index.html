@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Cards - Home</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Egyptian Card Game</h1>
+      <div class="scores">
+        <div id="PlayerOneScore">Player 1: 0</div>
+        <div id="PlayerTwoScore">Player 2: 0</div>
+      </div>
+
+      <div class="game-play-ground">
+        <div class="section" id="playerOne"></div>
+        <div class="section ground" id="ground"></div>
+        <div class="section" id="playerTwo"></div>
+      </div>
+
+      <div class="message" id="message">Player 1's turn</div>
+      <button id="drawCardBtn" class="btn">Draw a card</button>
+      <button id="restartBtn" class="btn" style="display: none">
+        Play Again
+      </button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
