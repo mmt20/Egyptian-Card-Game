@@ -4,7 +4,7 @@ This project is a web implementation of an Egyptian card game using HTML, CSS, a
 
 ## Preview
 
-[**Live Demo**](https://mmt20.github.io/Egyptian-Card-Game/)
+[**Live Demo**](https://egyptian-card-game.vercel.app/)
 
 ## ✨ Features
 
