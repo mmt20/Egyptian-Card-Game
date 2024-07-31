@@ -38,7 +38,7 @@ function dealInitialCards() {
 
 function drawCard() {
   if (allCards.length === 0) {
-    alert("No more cards in the deck!");
+    alert("No more cards !");
     return null;
   }
   const card = allCards.pop();
@@ -129,7 +129,7 @@ function updateMessage() {
     drawCardBtn.style.display = 'none';
     restartBtn.style.display = 'block';
   } else {
-    message = `Player ${currentPlayer}'s turn`;
+    message = `Player ${currentPlayer}  turn`;
     drawCardBtn.style.display = 'block';
     restartBtn.style.display = 'none';
   }
