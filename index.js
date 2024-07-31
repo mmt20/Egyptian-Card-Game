@@ -63,7 +63,7 @@ function updatePlayerCards(cardId, cards) {
   cardContainer.classList.add('card-container');
   cards.forEach((card, index) => {
     const img = document.createElement('img');
-    img.src = `/imgs/${card}.svg`;
+    img.src = `imgs/${card}.svg`;
     img.alt = card;
     if (cardId !== 'ground') {
       img.addEventListener('click', () => playCard(cardId, index));
